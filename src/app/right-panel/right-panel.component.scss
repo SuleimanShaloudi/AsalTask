@@ -1,0 +1,33 @@
+.customTable{
+    direction: rtl;
+}
+
+
+.reserve{
+    background-color: #ffbed5;
+    color: black;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.reservebottom{
+    background-color: #ffbed5;
+    color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.hr{
+    vertical-align: top;
+    font-size: 0.5rem;
+}
+.icon{
+    font-size: 50px;
+
+}
+#day{
+    vertical-align: center;
+    margin: auto 5px !important ; 
+}

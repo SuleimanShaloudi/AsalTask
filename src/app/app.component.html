@@ -1,0 +1,21 @@
+
+<div class="row appContainer ">
+     <app-left-panel class=" left-panel col-2 col-md-2 col-sm-4 col-xs-4" ></app-left-panel>
+      
+     <div>
+       <h4 id="date" >{{month}}, {{year}}</h4>
+     <ngb-datepicker class="datepicker " #d1 [(ngModel)]="model1" #c1="ngModel" (click)="month = getMonth; year = getYear; day=getDay;" [markDisabled]="isDisabled" [minDate]="minDat()" ></ngb-datepicker>
+    </div>
+     <app-right-panel [day]='getDay' class=" right-panel col-4 col-md-3 col-sm-4 col-xs-4" ></app-right-panel>
+
+    </div>
+  
+  <hr/>
+  <button class=" btn btn-sm btn-outline-primary" (click)="model1 = today">Select Today</button>
+  <hr/>
+
+  <pre>Model: {{ model1 }}</pre>
+  <pre>State: {{ c1.status  }} hamburger</pre>
+  <pre>Month: {{ month }}</pre>
+  <pre>Month: {{ year }}</pre>
+  <pre>Month: {{ day }}</pre>

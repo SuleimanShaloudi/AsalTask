@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+
+.ngb-dp-day {
+    padding: 10px;
+    margin:20px 20px;
+    border-radius: 50%;
+    width: auto !important;
+    height: auto !important;
+
+}
+.custom-select{
+    display: none !important;
+}
+.ngb-dp-weekdays{
+    display: none !important;
+
+}
+
+.ngb-dp-day .bg-primary{
+    outline:none !important;
+    border-radius: 50% !important;
+    background-color: transparent !important;   
+    color: white !important ;
+}
+
+.ngb-dp-day .bg-primary:focus{
+    background-color: #758fdb !important;
+
+}
+.ngb-dp-week .ngb-dp-day:focus {
+    outline: none !important;
+    background-color: #758fdb !important;
+    color: white !important ;
+
+}
+.ngb-dp-day .bg-primary:active {
+color: black;
+background-color: #758fdb !important;
+
+}

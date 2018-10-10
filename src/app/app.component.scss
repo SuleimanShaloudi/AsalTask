@@ -1,0 +1,28 @@
+.datepicker{
+    border: none;
+    background: white;
+}
+.left-panel {
+    background-color: #758fdb;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 10px;
+    max-height: 800px;
+    overflow: auto;
+}
+.right-panel{
+    background-color: #f1f6ff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 10px;
+    max-height: 800px !important;
+    overflow: auto;
+}
+.appContainer{
+        margin: 20px  !important;
+
+}
+
+#date{
+    vertical-align: center;
+    margin: auto 10px !important ; 
+
+}
